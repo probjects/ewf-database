@@ -35,6 +35,8 @@ The data in the English Women's Football (EWF) Database has been collected from 
 
 Each team has been given a unique ID in the format of `T-###-T`. This is to enable the tracking of team performance across multiple seasons, as most teams have changed their name over time. For example, Arsenal Ladies became Arsenal Women before the start of the 2017-2018 season, but the same ID is used for them throughout the database (`T-001-T`). The name of the team included in each dataset is the name of the team at the time. Any generic name terms such as 'Football Club' or 'F.C.' have been removed. Reference to 'Women' or 'Ladies' is included in the team name, where applicable, to indicate changes that have occurred. However, most teams do not explicitly reference 'Women' or 'Ladies' in their name unless it is to distinguish between the male and female teams.
 
+### Data dictionary
+
 #### Matches
 
 | Field      | Description |
