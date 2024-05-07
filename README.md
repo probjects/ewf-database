@@ -1,22 +1,28 @@
 # The English Women's Football (EWF) Database
 
-The English Women's Football (EWF) Database is an open database of football matches played in the top tiers of professional women's football in England. It covers all matches played since the 2011 season for the highest division (the Women's Super League) and since the 2014 season for the second-highest division (the Women's Championship).
+The English Women's Football (EWF) Database is an open database of matches played in the top tiers of professional women's football in England. It covers all matches played since the 2011 season for the highest division (the Women's Super League) and since the 2014 season for the second-highest division (the Women's Championship).
 
 ## A brief recent history of professional women's football in England
 
-With the first season held in 2011, the Women's Super League replaced the FA Women's Premier League National Division as the highest division of women's football in England. A second division was introduced for this new structure in 2014 which meant teams could now be promoted and relegated.
+With the first season held in 2011, the Women's Super League replaced the FA Women's Premier League National Division as the highest division of women's football in England. A second division was introduced for this new structure in 2014 which meant teams could be promoted and relegated.
 
-From the competition's start, all games in a season were played in a single year (a summer league). This changed from the 2017-2018 season, where games were played across two years (a winter league) to align with the traditional English football calendar. For this change to take place, a shortened series of games was played in 2017 (known as the Spring Series). This is included in the database for completeness, under the 2017-2017 season.
+Since the competition's start, all games in a season were played in a single year (a summer league). This changed from the 2017-2018 season, when games were played across two years (a winter league) to align with the traditional English football calendar. For this change to take place, a shortened series of games was played in 2017 (known as the Spring Series). This is included in the database for completeness, under the 2017-2017 season.
 
 As the 2019-2020 season was cut short in early May due to the Covid pandemic, the final standings in each league were based on a points-per-game average.
 
-Due to changes in the structure of women's football in England, promoted and relegated teams have not always been those that finished top and bottom of their division, respectively. For example, Doncaster Rovers Belles (`T-011-T`) placed first in the 2017-2018 tier 2 division but were ultimately relegated to tier 3 because they withdrew from the league for financial reasons. There has been a more consistent approach since the 2020-2021 season, with 12 teams in each division.
+Due to repeated changes in the structure of women's football in England, promoted and relegated teams have not always been those that finished top and bottom of their division, respectively. For example, Doncaster Rovers Belles (`T-011-T`) placed first in the 2017-2018 tier 2 division but were ultimately relegated to tier 3 because they withdrew from the league for financial reasons. There has been a more consistent approach since the 2020-2021 season, with 12 teams in each division.
 
 ## Using the data
 
-The database contains three datasets: `matches`, `appearances` (one observation per team per match), and `standings` (end-of-the-season division tables).
+The database contains three datasets:
+
+* `matches` contains all matches that have been played and has one observation per match per season.
+* `appearances` contains all appearances by a team and has one observation per team per match per season.
+* `standings` contains all end-of-the-season division tables and has one observation per team per season.
 
 Each dataset is provided as a CSV file in the `data` folder. These can be accessed by either cloning this GitHub repository or by downloading a copy by clicking 'Code' and then 'Download Zip' near the top of this page.
+
+All three datasets will be updated with the latest information at the end of each season.
 
 If you notice an error in the data or have any requests, please add them [here](https://github.com/probjects/ewf-database/issues).
 
@@ -25,9 +31,11 @@ The English Women's Football (EWF) Database is licensed under <a href="https://c
 Please cite the database as:
 > The English Women's Football (EWF) Database, May 2024, https://github.com/probjects/ewf-database.
 
+Inspiration has been taken from the <a href="https://github.com/jfjelstul/englishfootball" target="_blank">Fjelstul English Football Database</a>, a similarly structured dataset that covers men's professional football since 1888.
+
 ## Analysis of the data
 
-If you have used any of this data in your own analysis, please [share a link](https://github.com/probjects/ewf-database/issues) to your work so that it can be showcased here.
+If you have used any of this data in your own work, please [share a link](https://github.com/probjects/ewf-database/issues) and it will be showcased here.
 
 ## Description of the data
 
@@ -48,7 +56,7 @@ Each team has been given a unique ID in the format of `T-###-T`. This is to enab
 | match_id | The unique ID for the match. Has the format `M-####-####-#-###-M`, where the first number is the year in which the season started, the second number is the year in which the season ended, the third number is the tier, and the fourth number is a counter that is assigned to the data when sorted by the match's date, then by the name of the home team, and then by the name of the away team.|
 | match_name| The name of the match, where the name of the home team and the name of the away team is separated by ' vs '.|
 | date| The date of the match.|
-| attendance| The crowd attendance of the match.|
+| attendance| The crowd attendance of the match. Note that this information is not often available online.|
 | home_team_id| The unique ID for the home team. Has the format `T-###-T`.|
 | home_team_name| The name of the home team at the match.|
 | away_team_id| The unique ID for the away team. Has the format `T-###-T`.|
@@ -75,7 +83,7 @@ Each team has been given a unique ID in the format of `T-###-T`. This is to enab
 | match_id | The unique ID for the match. Has the format `M-####-####-#-###-M`, where the first number is the year in which the season started, the second number is the year in which the season ended, the third number is the tier, and the fourth number is a counter that is assigned to the data when sorted by the match date, then by the name of the home team, and then by the name of the away team. References `match_id` in the `matches` dataset.|
 | match_name| The name of the match, where the name of the home team and the name of the away team is separated by ' vs '.|
 | date| The date of the match.|
-| attendance| The crowd attendance of the match.|
+| attendance| The crowd attendance of the match. Note that this information is not often available online.|
 | team_id| The unique ID for the team. Has the format `T-###-T`.|
 | team_name| The name of the team at the match.|
 | opponent_id| The unique ID for the team’s opponent. Has the format `T-###-T`.|
