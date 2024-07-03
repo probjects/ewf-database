@@ -10,7 +10,7 @@ Since the competition's start, all games in a season were played in a single yea
 
 As the 2019-2020 season was cut short due to the Covid pandemic, the final standings in each league were based on a points-per-game average.
 
-Due to repeated changes in the structure of women's football in England, promoted and relegated teams have not always been those that finished top and bottom of their division, respectively. For example, Doncaster Rovers Belles (`T-011-T`) placed first in the 2017-2018 tier 2 division but were ultimately relegated to tier 3 because they withdrew from the league for financial reasons. There has been a more consistent approach since the 2021-2022 season, with 12 teams in each division.
+Due to repeated changes in the structure of women's football in England, promoted and relegated teams have not always been those that finished top and bottom of their division, respectively. For example, Doncaster Rovers Belles (`T-011-T`) placed first in the 2017-2018 tier 2 division but were ultimately relegated to tier 3 because they withdrew from the league for financial reasons. There has been a more consistent approach since the 2021-2022 season, with 12 teams in each division. Due to Reading Women (`T-023-T`) withdrawing from tier 2 at the end of the 2023-2024 season and playing in tier 5 in the 2024-2025 season, there will be 11 teams in tier 2 in 2024-2025.
 
 ## Using the data
 
@@ -121,4 +121,4 @@ Each team has been given a unique ID in the format of `T-###-T`. This is to enab
 | goal_difference| The number of goals scored by the team minus the number of goals scored against the team.|
 | points| The number of points that the team earned over the whole season (after applying `point_adjustment`).|
 | point_adjustment| The number of points that were deducted by the league due to violations of rules or added by the league due to forfeits.|
-| season_outcome| The outcome for the team following the season. This variable is included to track the movement of teams across seasons more easily. Possible values are `Club folded`, `No change` for when the team remains in their current tier, `Promoted to tier 1` for when the team moves into tier 1 from a lower tier, `Relegated to tier 2` for when the team moves into tier 2 from a higher tier, and `Relegated to tier 3` for when the team moves into tier 3 from a higher tier.|
+| season_outcome| The outcome for the team following the season. This variable is included to track the movement of teams across seasons more easily. Possible values are `Club folded`, `No change` for when the team remains in their current tier, `Promoted to tier 1` for when the team moves into tier 1 from a lower tier, `Relegated to tier 2` for when the team moves into tier 2 from a higher tier, and `Relegated to tier 3` for when the team moves into tier 3 from a higher tier, and `Relegated to tier 5` for when the team moves into tier 5 from a higher tier.|
