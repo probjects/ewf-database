@@ -37,6 +37,22 @@ Inspiration has been taken from the <a href="https://github.com/jfjelstul/englis
 
 If you have used any of this data in your own work, please [let me know](https://github.com/probjects/ewf-database/issues) and it will be showcased here.
 
+#### Attendance
+
+* [Attendance of the Women's Super League is Growing](https://x.com/GregoryVdvinne/status/1814129547832344783) - Gregory Vander Vinne
+* [Most popular games and average attendance over time](https://x.com/vhgauto/status/1813565761761464677) (Spanish) - Víctor Gauto
+* [Historic attendance by draw outcome](https://x.com/feda_algo/status/1815241777017757891) - Federico Alegría
+
+#### Team performance
+
+* [Chelsea, the team with the most goals in English women's football](https://x.com/geokaramanis/status/1813843633738527136) - Georgios Karamanis
+* [Monthly evolution of the WSL table in 2023-2024](https://x.com/AndriambeloRajo/status/1813305894450724902) - @AndriambeloRajo
+* [Draw rate may be declining in the WSL](https://x.com/mitsuoxv/status/1815350575896408374) - Mitsuo Shiota
+* [Three teams dominate the WSL rankings since 2015: Chelsea, Manchester City and Arsenal](https://x.com/AdityaDahiyaIAS/status/1814973009746165863) - Aditya Dahiya
+* [Team performance across seasons](https://x.com/sponce1/status/1813714006009426211) - Steven Ponce
+* [Club rankings over time](https://x.com/nrennie35/status/1813590224053666096) - Nicola Rennie
+
+
 ## Description of the data
 
 The data in the English Women's Football (EWF) Database has been collected from multiple online sources and has been cross-referenced to confirm its accuracy. Information in the database is also cross-referenced with itself to ensure consistency. For example, that a team's `goals_for` at the end of the season in `ewf_standings` is equal to the number of goals they have scored across all games played in `ewf_matches`.
