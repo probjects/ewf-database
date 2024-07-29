@@ -51,7 +51,7 @@ If you have used any of this data in your own work, please [let me know](https:/
 * [Three teams dominate the WSL rankings since 2015: Chelsea, Manchester City and Arsenal](https://x.com/AdityaDahiyaIAS/status/1814973009746165863) - Aditya Dahiya
 * [Team performance across seasons](https://x.com/sponce1/status/1813714006009426211) - Steven Ponce
 * [Club rankings over time](https://x.com/nrennie35/status/1813590224053666096) - Nicola Rennie
-
+* [Wins by score and team](https://x.com/AulieRoy/status/1817071466623443353) - Roy Aulie Jacobsen
 
 ## Description of the data
 
