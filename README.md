@@ -42,6 +42,7 @@ If you have used any of this data in your own work, please [let me know](https:/
 * [Attendance of the Women's Super League is Growing](https://x.com/GregoryVdvinne/status/1814129547832344783) - Gregory Vander Vinne
 * [Most popular games and average attendance over time](https://x.com/vhgauto/status/1813565761761464677) (Spanish) - Víctor Gauto
 * [Historic attendance by draw outcome](https://x.com/feda_algo/status/1815241777017757891) - Federico Alegría
+* [Attendance for the strongest-performing teams](https://www.thedataschool.com.au/don-kang/dashboard-week-at-ds-english-womens-football-league-analysis/) - Don Kang
 
 #### Team performance
 
