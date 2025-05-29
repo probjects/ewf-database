@@ -29,7 +29,7 @@ If you notice an error in the data or have any requests/feedback, please add it 
 The English Women's Football (EWF) Database is licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank">CC BY-SA 4.0</a>. This means that you can distribute, modify, and use all or part of the database for commercial or non-commercial purposes as long as (1) you provide proper attribution and (2) any new works you produce based on this database also carry the CC-BY-SA 4.0 license.
 
 Please cite the database as:
-> The English Women's Football (EWF) Database, May 2024, https://github.com/probjects/ewf-database.
+> The English Women's Football (EWF) Database, https://github.com/probjects/ewf-database.
 
 Inspiration has been taken from the <a href="https://github.com/jfjelstul/englishfootball" target="_blank">Fjelstul English Football Database</a>, a similarly structured dataset that covers men's professional football since 1888.
 
