@@ -46,6 +46,7 @@ If you have used any of this data in your own work, please [let me know](https:/
 
 #### Team performance
 
+* [Manchester United started late but bridged the gap](https://dwisdom.gitlab.io/post/figure_friday_2024_29/) - David Wisdom
 * [Chelsea, the team with the most goals in English women's football](https://x.com/geokaramanis/status/1813843633738527136) - Georgios Karamanis
 * [Monthly evolution of the WSL table in 2023-2024](https://x.com/AndriambeloRajo/status/1813305894450724902) - @AndriambeloRajo
 * [Draw rate may be declining in the WSL](https://x.com/mitsuoxv/status/1815350575896408374) - Mitsuo Shiota
