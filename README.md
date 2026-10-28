@@ -73,7 +73,7 @@ Each team has been given a unique ID in the format of `T-###-T`. This is to enab
 | division | The division name in English football.|
 | match_id | The unique ID for the match. Has the format `M-####-####-#-###-M`, where the first number is the year in which the season started, the second number is the year in which the season ended, the third number is the tier, and the fourth number is a counter that is assigned to the data when sorted by the match's date, then by the name of the home team, and then by the name of the away team.|
 | match_name| The name of the match, where the name of the home team and the name of the away team is separated by ' vs '.|
-| date| The date of the match, in ``dd/mm/yyyy`` format.|
+| date| The date of the match, in ``yyyy-mm-dd`` format.|
 | attendance| The total crowd attendance at the match. Note that this information is not available for some matches.|
 | home_team_id| The unique ID for the home team. Has the format `T-###-T`.|
 | home_team_name| The name of the home team at the match.|
@@ -100,7 +100,7 @@ Each team has been given a unique ID in the format of `T-###-T`. This is to enab
 | division | The division name in English football.|
 | match_id | The unique ID for the match. Has the format `M-####-####-#-###-M`, where the first number is the year in which the season started, the second number is the year in which the season ended, the third number is the tier, and the fourth number is a counter that is assigned to the data when sorted by the match's date, then by the name of the home team, and then by the name of the away team. References `match_id` in the `ewf_matches` dataset.|
 | match_name| The name of the match, where the name of the home team and the name of the away team is separated by ' vs '.|
-| date| The date of the match, in ``dd/mm/yyyy`` format.|
+| date| The date of the match, in ``yyyy-mm-dd`` format.|
 | attendance| The total crowd attendance at the match. Note that this information is not available for some matches.|
 | team_id| The unique ID for the team. Has the format `T-###-T`.|
 | team_name| The name of the team at the match.|
